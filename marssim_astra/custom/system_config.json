@@ -1,0 +1,24 @@
+{
+  "architecture": "NVIDIA_B200_Custom_Stacked",
+  "compute": {
+    "tensor_cores": 393,  
+    "clock_frequency_GHz": 1.4, 
+    "sram_l2_cache_MB": 16, 
+    "peak_flops_TFLOPS": 5100
+  },
+  "memory": {
+    "type": "3D_Stacked_DRAM_1000TSV",
+    "capacity_GB": 192,
+    "bandwidth_GBps": 8000000, 
+    "latency_ns": 5
+  },
+  "topology": {
+    "network": "NVLink",
+    "bandwidth_GBps": 1800
+  },
+  "thermal": {
+    "tdp_watts": 1400, 
+    "cooling_capacity_watts": 1000,
+    "dark_silicon_throttling_enabled": true
+  }
+}

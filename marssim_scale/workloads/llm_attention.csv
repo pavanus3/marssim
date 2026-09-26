@@ -1,0 +1,6 @@
+LayerName, IFMAP Height, IFMAP Width, Filter Height, Filter Width, Channels, Num Filter, Strides
+QKV_Projection, 1, 4096, 1, 1, 4096, 12288, 1
+Attention_Scores, 1, 4096, 1, 1, 4096, 4096, 1
+Attention_Output, 1, 4096, 1, 1, 4096, 4096, 1
+FFN_Up, 1, 4096, 1, 1, 4096, 16384, 1
+FFN_Down, 1, 16384, 1, 1, 16384, 4096, 1

@@ -1,0 +1,23 @@
+{
+  "architecture": "NVIDIA_B200_Baseline",
+  "compute": {
+    "tensor_cores": 328,
+    "clock_frequency_GHz": 1.8,
+    "sram_l2_cache_MB": 192,
+    "peak_flops_TFLOPS": 4500
+  },
+  "memory": {
+    "type": "Shoreline_HBM3e",
+    "capacity_GB": 192,
+    "bandwidth_GBps": 8000,
+    "latency_ns": 15
+  },
+  "topology": {
+    "network": "NVLink",
+    "bandwidth_GBps": 1800
+  },
+  "thermal": {
+    "tdp_watts": 1000,
+    "cooling_capacity_watts": 1000
+  }
+}

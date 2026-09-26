@@ -1,0 +1,8 @@
+{
+  "workload_type": "LLM_Inference",
+  "phase": "Decode",
+  "batch_size": 128,
+  "sequence_length": 1,
+  "compute_intensity": "Low",
+  "memory_intensity": "Extremely_High"
+}

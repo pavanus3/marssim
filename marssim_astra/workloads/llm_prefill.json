@@ -1,0 +1,8 @@
+{
+  "workload_type": "LLM_Inference",
+  "phase": "Prefill",
+  "batch_size": 128,
+  "sequence_length": 2048,
+  "compute_intensity": "High",
+  "memory_intensity": "Low"
+}

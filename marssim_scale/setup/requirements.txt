@@ -1,0 +1,8 @@
+numpy==1.26.4
+pandas==2.2.1
+tqdm==4.66.2
+configparser==7.0.0
+requests==2.31.0
+PyYAML==6.0.1
+openai==1.14.0
+google-generativeai==0.4.1
